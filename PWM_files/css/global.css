@@ -1,0 +1,798 @@
+/********************************************************************************\
+*
+*   This file is part of PHP Web Manager.
+*   Copyright (c) 2010-2011 SimpleGeek. All rights reserved.
+*   http://www.simplegeek.fr/
+* 
+*   PHP Web Manager is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU General Public License
+*   as published by the Free Software Foundation; either version 2
+*   of the License, or (at your option) any later version.
+* 
+*   PHP Web Manager is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU General Public License for more details.
+* 
+*   You should have received a copy of the GNU General Public License
+*   along with this program; if not, write to the Free Software
+*   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*  
+\*********************************************************************************/
+
+
+/**
+* PHP Web Manager: Reloaded
+* Fichier: global.css
+* Dernière modification: 10/06/2010
+* Copyright (C) SimpleGeek 2010-2011
+**/ 
+
+/************************/
+/* -- CSS des liens --
+/* -- Non connecté
+/**/
+div.global a       { color: #A1A1A1; text-decoration: none; }
+div.global a:visited   { color: #0085c3; text-decoration: none; }
+div.global a:hover   { color: #FF0000; text-decoration: none; }
+
+/************************/
+/* -- CSS des liens --
+/* -- Connecté
+/**/
+a       { color: #FFF; text-decoration: none; }
+a:visited   { color: #FFF; text-decoration: none; }
+a:hover     { color: #FF0000; text-decoration: none; }
+
+span{
+  color: #FFF;
+}
+
+table.foot a:hover     { color: #FFF; text-decoration: none; }
+
+a.inp, a.inp:link, a.inp:visited {
+  color: #A1A1A1;
+  padding: 2px;
+  border: 1px solid #D3D3D3;
+  text-decoration: none;
+  background-image: url("../images/bg_lien.gif");
+}
+
+a.inp:hover {
+  background-image: url("../images/bg_lien2.gif");
+  border: 1px solid #808080;
+  text-decoration: none;
+}
+
+a.logout, a.logout:link, a.logout:visited {
+  color: #a1a1a1;
+  text-decoration: none;
+}
+
+a.logout:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+/************************/
+/* -- CSS du body --
+/**/
+body {
+  overflow: hidden;
+  margin: 2px;
+  font-family: Verdana, Arial;
+  font-size: 11px;
+  text-align: left;
+  line-height : 16px;
+  background-image: url("../images/bg.jpg");
+  background-repeat:repeat;
+}
+
+/************************/
+/* -- CSS du "global" --
+/**/
+div.global {
+  width: 50%;
+  border: 1px inset #056385;
+  background: url("../images/text_accueil.png") 5% center no-repeat #000;
+  text-align: center;
+  margin: auto;
+  margin-top: 8%;
+  padding: 10px 25px 10px 25px;
+  font-size: 11px;
+  color: #FFF;
+}
+
+div#ecto {
+height:84px;
+width:484px;
+background: url("../images/ecto.png") 0 0 no-repeat;
+text-align:center;
+margin-top: 200px;
+margin-top: 10%;
+}
+
+div#ecto:hover{
+background: url("../images/ecto.png") 0 -84px no-repeat;
+}
+
+div#file{
+  background: url("../images/file.png") no-repeat;
+  height: 100px;
+  width: 300px;
+  margin-left: 300px;
+}
+
+/************************/
+/* -- CSS du "erreur" --
+/**/
+div.erreur {
+  width: 50%;
+  border: 1px inset #969696;
+  background: url("../images/error_accueil.png") 5% center no-repeat #F3F3F3;
+  text-align: center;
+  margin: auto;
+  margin-top: 8%;
+  padding: 10px 25px 10px 25px;
+  font-size: 11px;
+}
+
+/************************/
+/* -- CSS du listing --
+/**/
+div.listing {
+  left: 1px;
+  background: ##2E2E2E;
+  position: fixed;
+  top: 35px;
+  width: 99%;
+  text-align: left;
+  margin-top: 32px;
+  padding-bottom: -15px;
+  margin-left: 7px;
+  font-size: 11px;
+  height: 81%;
+  overflow: auto;
+}
+
+div.listing tr.opacity:hover {
+  opacity: 0.5;
+}
+
+tr.opacity{
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+tr.opacity:hover{
+  border: 1px solid #056385;
+  -moz-box-shadow: 0 0 20px 0px #000;
+  -webkit-box-shadow: 0 0 20px 0px #000;
+  box-shadow: 0 0 20px 0px #000;
+  z-index: 3;
+  color: #FF0000;
+}
+
+table#list {
+  cursor: default;
+  border: 1px solid #056385;
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.list {
+  cursor: default;
+  border: 1px solid gray;
+  background: #F0F0F0;
+  -moz-box-shadow: 0 0 20px 0px #000;
+  -webkit-box-shadow: 0 0 20px 0px #000;
+  box-shadow: 0 0 20px 0px #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.list img {
+  border: 0px;
+}
+
+th {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+a.none,a.none:hover,a.nowrite,a.noread {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.nowrite:hover {
+  color: #707070;
+}
+
+a.noread:hover {
+  color: red;
+}
+
+/* Séléction */
+
+td.checked span.bg {
+  background-color:#E0E0E0;
+  padding:3px;
+  padding-right:8px;
+  border-radius:7px;
+}
+
+td.checked {
+  text-indent:4px;
+}
+
+td.ectocreation {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+
+input.more {
+  color: #000000;
+  font-family: "MS Sans Serif",arial;
+  font-size: 12px;
+  width: 211px;
+  border: none;
+  cursor: default;
+  background: url("../images/actions/list.gif") transparent;
+  background-repeat: no-repeat;
+  padding: 4px;
+  text-indent: 5px;
+}
+
+/************************/
+/* -- CSS des listes --
+/**/
+ul.listing {
+  padding-left: 200px;
+  text-align: left;
+  list-style-image: url("../images/arrow_accueil.png");
+}
+
+/************************/
+/* -- CSS du head --
+/**/
+table.head {
+  position: fixed;
+  color: #a1a1a1;
+  top: 0px;
+  left: 0px;
+  background: url("../images/menu_bg.jpg") repeat-x;
+  border-collapse: collapse;
+  -moz-box-shadow: 0 0 20px 0px #000;
+  -webkit-box-shadow: 0 0 20px 0px #000;
+  box-shadow: 0 0 20px 0px #000;
+  height: 60px;
+  width: 100%;
+}
+
+table.head td {
+  position: relative;
+}
+  
+td.index {
+    clear: both;
+    margin-left: 8px;
+    padding: 0;
+    position: absolute;
+    top: 14px;
+}
+
+/************************/
+/* -- CSS du Submit --
+/**/
+input.ok_pw {
+  background: url("../images/submit.png") no-repeat;
+  border: none;
+  width: 46px;
+  height: 25px;
+  position: relative;
+  top: 2px;
+}
+  
+/************************/
+/* -- CSS du password --
+/**/
+input.up {
+  background-color: white;
+  text-indent: 2px;
+  color: black;
+  font: normal 11px Verdana;
+  border: 1px inset #969696;
+}
+
+/************************/
+/* -- CSS du footer --
+/**/
+table.foot {
+  position: fixed;
+  color: #a1a1a1;
+  bottom: -3px;
+  left: 0px;
+  background: url("../images/menu_bg2.jpg") repeat-x;
+  border-collapse: collapse;
+  -moz-box-shadow: 0 0 20px 0px #000;
+  -webkit-box-shadow: 0 0 20px 0px #000;
+  box-shadow: 0 0 20px 0px #000;
+  height: 40px;
+  width: 100%;
+}
+  table.foot td {
+    vertical-align: middle;
+    color: #a1a1a1;  
+    white-space: nowrap;
+    padding-left: 10px;
+  }
+
+/************************/
+/* -- CSS de newconfig --
+/**/
+input.reg {
+  border: 1px inset black;
+  text-indent: 1px;
+  padding: 1px;
+  font-family: "Microsoft Sans Serif", "MS Sans Serif", arial;
+  font-size: 10px;
+  border: 1px inset #969696;
+}
+
+select {
+  font: 10px normal "Microsoft Sans Serif",LineDraw,"Trebuchet MS";
+}
+
+#bind {
+  margin: 15px;
+  margin-top: 30px;
+}
+
+#bind ul {
+  margin-left: 30px;
+  margin-top: 20px;
+  list-style-image: url("../images/arrow_accueil.png");
+}
+
+#bind li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/************************/
+/* -- CSS de upload --
+/**/
+#upload {
+  background: url("../images/upload.png") 75% bottom no-repeat;
+}
+
+div.global2 {
+  left:0px;
+  position:fixed;
+  top:35px;
+  width:99%;
+  text-align:left;
+  margin-top:9px;
+  margin-left:4px;
+  font-size:11px;
+}
+
+input.upd {
+  background-color: white;
+  text-indent: 2px;
+  padding: 2px;
+  color: gray;
+  font: normal 11px Verdana;
+  font-style: italic;
+  border: 1px inset #969696;
+}
+
+input.up {
+  background-color:white;
+  text-indent:2px;
+  color:black;
+  font: normal 11px Verdana;
+  border: 1px inset #969696;
+}
+
+input.pw {
+  background: url("../images/input_pw.png") no-repeat;
+  text-indent: 2px;
+  color: #a1a1a1;
+  font: normal 11px Verdana;
+  border: none;
+  height: 22px;
+  width: 117px;
+  padding-left: 32px;
+  top: 1px;
+  position: relative;
+}
+
+span.title {
+  display:block;
+  font-size:13px;
+  font-weight:bold;
+  padding:5px;
+}
+
+/************************/
+/* -- CSS de edition --
+/**/
+.ico {
+  padding:4px;
+  border: 0px;
+}
+
+.ico:hover {
+  border: 1px solid #A8A8A8 ;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+/************************/
+/* -- CSS de recherche --
+/**/
+div.search {
+  width: 95%;
+  left: 0px;
+  position: fixed;
+  top: 20px;
+  margin: 35px;
+  margin-left: 5px;
+  text-align: left;
+  padding: 20px;
+  font-size: 11px;
+  overflow: auto;
+  border: 1px solid gray;
+  background: #F6F6F6;
+  height: 74%;
+}
+
+input.inputsearch {
+  background-color: white;
+  text-indent: 2px;
+  padding: 2px;
+  color: gray;
+  font: normal 11px Verdana;
+  border: 1px inset #969696;
+}
+
+input.buttonsearch, input.buttonsearch:link, input.buttonsearch:visited {
+  color: #000000;
+  padding: 1px;
+  border: 1px solid #D3D3D3;
+  text-decoration: none;
+  background-image: url("../images/bg_lien.gif");
+  font-family: Verdana, Arial;
+  font-size: 11px;
+}
+
+input.buttonsearch:hover {
+  background-image: url("../images/bg_lien2.gif");
+  border: 1px solid #808080;
+  text-decoration: none;
+  font-family: Verdana, Arial;
+  font-size: 11px;
+}
+
+/************************/
+/* -- CSS du menu --
+/**/
+#options {
+  text-align: left;
+  border: 1px solid #ccc;
+  width: 208px;
+  visibility: hidden;
+  overflow: hidden;
+  font-size: 11px;
+  font-family: "Microsoft Sans Serif",LineDraw,"Trebuchet MS";
+  position: absolute;
+  bottom: 42px;
+  right: 55px;
+  text-indent: 8px;
+  padding-top: 8px;
+  z-index: 100;
+  background: url("../images/panth.gif") #F0F0F0;
+  line-height: 18px;
+  height: 180px;
+}
+
+#options a {
+cursor:default;
+}
+
+#options > ul {
+margin:0px;
+list-style-type: none;
+padding:0px;
+}
+
+#options > ul > li {
+width:100%;
+}
+
+#options a:link, #options a:visited,  #options.hide a:hover {
+text-decoration:none;
+display: block;
+color: #000;
+}
+
+#options.visi a:hover {
+background-color:#778794;
+text-decoration:none;
+color: white;
+}
+
+#options img {
+  border: 0px;
+}
+
+/************************/
+/* -- CSS du chmod --
+/**/
+#octal{
+border-radius: 9px;
+z-index: 200;
+width: 500px;
+height: 300px;
+background: url("../images/panth.gif") #F0F0F0;
+border: 1px solid silver;
+position: fixed;
+top: 21%;
+left: 34%;
+display: none;
+}
+
+input.dd {
+color: #2F4F4F;
+border-radius: 5px;
+font: 11px normal LineDraw,"Trebuchet MS";
+border: 1px outset #C8C8C8 ;
+background-color: #E8E8E8 ;
+padding: 1px;
+}
+
+/********************/
+/* -- Bouton CSS3 --
+/**/
+
+#checkbox{
+  top:-3px;
+  position: relative;
+}
+
+#checkboxtext{
+  top:-3px;
+  position: relative;
+}
+
+#newdir {
+  background: url("../images/bg_icone.png") no-repeat 0 0 scroll;
+  padding: 3px 34px 9px 18px;
+  position: relative;
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  top: -4px;
+}
+
+#newfile {
+  background: url("../images/bg_icone.png") no-repeat 0 0 scroll;
+  padding: 3px 45px 9px 22px;
+  position: relative;
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  top: -4px;
+}
+
+#newupload {
+  background: url("../images/bg_icone2.png") no-repeat 0 0 scroll;
+  padding: 3px 19px 9px 13px;
+  position: relative;
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  top: -4px;
+}
+
+#phpinfo {
+  background: url("../images/bg_icone.png") no-repeat 0 0 scroll;
+  padding: 3px 34px 9px 25px;
+  position: relative;
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  top: -4px;
+}
+
+#newconfig {
+  background: url("../images/bg_icone.png") no-repeat 0 0 scroll;
+  padding: 3px 47px 9px 28px;
+  position: relative;
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  top: -4px;
+}
+
+#newsearch {
+  background: url("../images/bg_icone2.png") no-repeat 0 0 scroll;
+  padding: 3px 15px 9px 13px;
+  position: relative;
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  top: -4px;
+}
+
+/********************/
+/* -- Overflow --
+/**/
+
+#overflow{
+font:.8em sans-serif;
+color:deepskyblue;
+text-shadow:0 -1px 0 rgba(0,0,0,.7);
+margin-bottom: 30px;
+width: 525px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#overflow ul{
+margin-top:50px;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+/*perspective*/
+-webkit-perspective:500px;
+   -moz-perspective:500px;
+    -ms-perspective:500px;
+     -o-perspective:500px;
+        perspective:500px;
+}
+
+#overflow ul li{
+display:inline-block;
+margin-right:-15px;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+position:relative;
+z-index:50;
+background-color:#111;
+background-image:-webkit-linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+background-image:-moz-linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+background-image:-o-linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+background-image:linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+width:112px;
+height:165px;
+padding:10px;
+list-style:none;
+text-align:center;
+/*transform*/
+-webkit-transform:rotateY(45deg);
+   -moz-transform:rotateY(45deg);
+    -ms-transform:rotateY(45deg);
+     -o-transform:rotateY(45deg);
+        transform:rotateY(45deg);
+/*transition*/
+-webkit-transition:all .45s;
+   -moz-transition:all .45s;
+     -o-transition:all .45s;
+        transition:all .45s;
+border-radius:2px;
+}
+
+#overflow ul li a.letgo{
+position:absolute;
+font-family: 'Courgette', cursive;
+bottom:5px;
+right:5px;
+color:white;
+text-decoration:none;
+text-align:center;
+font-size:1.1em;
+padding:.5em;
+border-radius:2px;
+background-color:#222;
+background-image:-webkit-linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+background-image:-moz-linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+background-image:-o-linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+background-image:linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,0));
+/*transition*/
+-webkit-transition:background-color 1s;
+   -moz-transition:background-color 1s;
+     -o-transition:background-color 1s;
+        transition:background-color 1s;
+}
+
+#overflow ul li img{
+width:100% !important;
+height:auto !important;
+}
+
+/* l'element central */
+#overflow ul li:nth-child(3){
+/*transform*/
+-webkit-transform:rotateY(0) scale(1.22);
+   -moz-transform:rotateY(0) scale(1.22);
+    -ms-transform:rotateY(0) scale(1.22);
+     -o-transform:rotateY(0) scale(1.22);
+        transform:rotateY(0) scale(1.22);
+background-color:#222;
+z-index:55;
+}
+#overflow ul li:nth-child(3) a.letgo{
+background-color:#09C;
+}
+
+/* les elements qui suivent l'element central */
+#overflow ul li:nth-child(3) ~ li{
+/*transform*/
+-webkit-transform:rotateY(-45deg);
+   -moz-transform:rotateY(-45deg);
+    -ms-transform:rotateY(-45deg);
+     -o-transform:rotateY(-45deg);
+        transform:rotateY(-45deg);
+}
+
+#overflow ul li:last-child,
+#overflow ul li:first-child{
+    z-index:45;
+}
+
+
+#overflow ul:hover li:not(:hover){
+/*transform*/
+-webkit-transform:rotateY(45deg);
+   -moz-transform:rotateY(45deg);
+    -ms-transform:rotateY(45deg);
+     -o-transform:rotateY(45deg);
+        transform:rotateY(45deg);
+background-color:#111;
+}
+
+#overflow ul:hover li a.letgo{
+background-color:#222;
+}
+
+/* tous les elements survoles 
+   ET meme ceux qui suivent l'élement central
+   (surclasser)
+*/
+#overflow ul li:hover,
+#overflow ul li:first-child:hover,
+#overflow ul li:nth-child(3) ~ li:hover{
+/*transform*/
+-webkit-transform:rotateY(0) scale(1.22);
+   -moz-transform:rotateY(0) scale(1.22);
+    -ms-transform:rotateY(0) scale(1.22);
+     -o-transform:rotateY(0) scale(1.22);
+        transform:rotateY(0) scale(1.22);
+z-index:60;
+background-color:#222;
+}
+
+#overflow ul:hover li:hover a.letgo{
+background-color:#09C;
+}
+
+#overflow ul:hover li:hover ~ li{
+/*transform*/
+-webkit-transform:rotateY(-45deg);
+   -moz-transform:rotateY(-45deg);
+    -ms-transform:rotateY(-45deg);
+     -o-transform:rotateY(-45deg);
+        transform:rotateY(-45deg);
+}
+
+-webkit-box-shadow:0 1px 0 rgba(255,255,255,.4) inset,-5px 0px 5px -5px rgba(0,0,0,.8);
+        box-shadow:0 1px 0 rgba(255,255,255,.4) inset,-5px 0px 5px -5px rgba(0,0,0,.8);
+}
