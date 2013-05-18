@@ -70,7 +70,7 @@
 //  $update = 'http://www.simplegeek.fr/version.db';
   
 // Les fichiers que vous ne voulez pas lister
-  $arr_notdisp = array('.','..','.htaccess','pwm.php','PWM_files','cgi-bin','$RECYCLE.BIN',".tmp","uploadeur","System Volum Information","Serveur's link code.txt");
+  $arr_notdisp = array('.','..','.htaccess','pwm.php','PWM_files','cgi-bin','$RECYCLE.BIN',".tmp","uploadeur","System Volume Information","Serveur's link code.txt");
   
 // Toutes les types de fichiers supportés par le PWM (liste très exhaustive)
   $classType = array('php'   => 1
