@@ -38,7 +38,7 @@
 
 // Votre mot de passe. Si il n'y en a pas ou qu'il est NULL, le script ne fonctionnera pas
 // N'oubliez pas d'encadrer votre mot de passe avec des guillemets si il contient des caracères non-héxadécimaux
-  $password = "22002158-5ecto";
+  $password = "doliprane";
   
 // Choisissez votre langue (FR ou EN)
   $langue = "FR";
