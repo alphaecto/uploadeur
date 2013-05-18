@@ -70,7 +70,7 @@
 //  $update = 'http://www.simplegeek.fr/version.db';
   
 // Les fichiers que vous ne voulez pas lister
-  $arr_notdisp = array('.','..','.htaccess','index.php','source','cgi-bin');
+  $arr_notdisp = array('.','..','.htaccess','pwm.php','PWM_files','cgi-bin');
   
 // Toutes les types de fichiers supportés par le PWM (liste très exhaustive)
   $classType = array('php'   => 1
@@ -133,7 +133,7 @@
   
 // Importation du dossier du script (images, css, JS...)
 // Si vous renommez le dossier, il risque d'y avoir des erreurs
-  $PWM_FILES = "source/";
+  $PWM_FILES = "./source/";
   
 // Création de tableaux pour le listing + compte
   $ftp = $multisort = $arr_dirs = $arr_files = array();
