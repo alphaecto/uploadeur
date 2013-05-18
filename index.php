@@ -119,7 +119,7 @@
  
   elseif(isset($_COOKIE['pwm']) && ($_COOKIE['pwm'] == md5($password)))
   {
-    include_once ($PWM_FILES."inc/content.inc.php");
+    include_once ("./source/inc/content.inc.php");
 	
 	// On envoi le ping si il est activé || If activated, we send the ping every 30s
 	if($ping) { ?>
@@ -169,7 +169,7 @@
     <title>FILE HOSTER | ECTO CREATION</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="<?=$PWM_FILES?>images/favicon.ico" /> 
-    <link href="<?=$PWM_FILES; ?>css/global.css" rel="stylesheet" type="text/css" media="screen" /> 
+    <link href="./source/css/global.css" rel="stylesheet" type="text/css" media="screen" /> 
     
   </head>
 
