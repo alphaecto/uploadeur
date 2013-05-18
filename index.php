@@ -64,7 +64,7 @@
     <meta name="keywords" content="client ftp, ftp, php web manager, reloaded, simplegeek, manager, php, web, html, admin, password, filezilla" />
     <meta name="author" content="SimpleGeek" />
     
-    <title>FILE HOSTER | ECTO CREATION</title>
+    <title>FILE HOSTER | MEDIACENTER</title>
 
 
 
@@ -166,7 +166,7 @@
 
 
 
-    <title>FILE HOSTER | ECTO CREATION</title>
+    <title>FILE HOSTER | MEDIACENTER</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="<?=$PWM_FILES?>images/favicon.ico" /> 
     <link href="<?=$PWM_FILES; ?>css/global.css" rel="stylesheet" type="text/css" media="screen" /> 
@@ -180,7 +180,7 @@
         <table class="head" width="99%" cellpadding="2">
           <tr>
             <td id="index" width="70%" align="left">&nbsp;<?=$language[$langue]['PWM_CONNECT_FTP']?> : &nbsp;<input type="password" name="password" size="15" class="pw" value="yourPassword" onfocus="if(this.value == 'yourPassword'){this.value = '';}" onblur="if(this.value == ''){this.value = 'yourPassword';}" />&nbsp;<input type="submit" value="" class="ok_pw"/></td>
-            <td id="ectocreation" width="29%" align="right">Ecto - Creations</td>
+            <td id="ectocreation" width="29%" align="right">Serveur - MediaCenter</td>
             <td width="01%" align="left">&nbsp;</td>
           </tr>
         </table>
