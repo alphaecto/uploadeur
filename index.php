@@ -69,7 +69,7 @@
 
 
     <link rel="shortcut icon" type="image/x-icon" href="<?=$PWM_FILES?>images/favicon.ico" /> 
-    <link href="<?=$PWM_FILES?>css/global.css" rel="stylesheet" type="text/css" media="screen" /> 
+    <link href="./source/css/global.css" rel="stylesheet" type="text/css" media="screen" /> 
     
   </head>
 
