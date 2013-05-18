@@ -188,7 +188,7 @@
         <div id="ecto"></div>
         <div id="file"></div>
 
-        <div id="overflow">
+    <!--    <div id="overflow">
               <ul>
               <li>
                 <a href="skype:alpha_ecto?add"><img src="PWM_files/images/icone/skype.png" alt="Tee shirt HTML5" width='100' height='100' style='height:100px;width:100px;' /></a>
@@ -216,7 +216,7 @@
                 <a href="http://marechal-ecto.deviantart.com/" onclick="window.open(this.href, 'google'); return false;" class="letgo">Let's Go</a>
               </li>
               </ul>
-        </div>
+        </div> -->
 
         <table class="foot" width="100%">
           <tr>
