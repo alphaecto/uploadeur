@@ -133,7 +133,7 @@
   
 // Importation du dossier du script (images, css, JS...)
 // Si vous renommez le dossier, il risque d'y avoir des erreurs
-  $PWM_FILES = "./PWM_files/";
+  $PWM_FILES = "./source/";
   
 // Création de tableaux pour le listing + compte
   $ftp = $multisort = $arr_dirs = $arr_files = array();
