@@ -41,7 +41,7 @@
 ##     INCLUDES      ##
 #######################
 
-  require_once ("./PWM_files/inc/config.inc.php");
+  require_once ("./source/inc/config.inc.php");
   require_once ($PWM_FILES."inc/functions.inc.php");
   require_once ($PWM_FILES."inc/language.inc.php");
   
