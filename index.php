@@ -185,7 +185,7 @@
           </tr>
         </table>
 
-        <div id="ecto" style="cursor:pointer;"> </div>
+        <div id="ecto"> </div>
         <div id="file"></div>
 
     <!--    <div id="overflow">
